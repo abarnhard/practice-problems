@@ -1,0 +1,22 @@
+{
+  "name": "practice-problems",
+  "version": "1.0.0",
+  "description": "Practice comp sci problems",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/jasmine/bin/jasmine.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abarnhard/practice-problems.git"
+  },
+  "author": "Adam Barnhard <admbarn@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abarnhard/practice-problems/issues"
+  },
+  "homepage": "https://github.com/abarnhard/practice-problems#readme",
+  "devDependencies": {
+    "jasmine": "^3.5.0"
+  }
+}
