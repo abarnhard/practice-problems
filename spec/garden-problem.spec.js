@@ -1,4 +1,4 @@
-const grow = require('../../garden-problem/index.js').grow;
+const grow = require('../garden-problem/index.js').grow;
 
 describe("garden.grow", function () {
     it("should not grow anything for 0 years", function () {
@@ -91,14 +91,3 @@ describe("garden.grow", function () {
         );
     });
 });
-
-
-function printGarden(garden) {
-    const display = garden.reduce((acc, row) => {
-        acc += row.join('', '');
-        acc += '\n';
-        return acc;
-    }, '');
-
-    console.log(display);
-}
